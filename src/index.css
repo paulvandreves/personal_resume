@@ -11,3 +11,55 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.heading { 
+  font-family: Oswald; 
+  font-size: 7rem; 
+  font-weight:bold; 
+  text-transform: uppercase;
+}
+.subHeading {
+  font-family: lato; 
+  
+}
+.phoneNumber {
+  padding-right: 4rem; 
+}
+.email {
+  padding-left: 4rem; 
+}
+
+.logoImages {
+ 
+ white-space: nowrap;
+}
+.website {
+  font-family: Trocchi; 
+  display: inline-block;
+  font-size: 2rem; 
+}
+
+.gitHub {
+  display: inline-block;
+  height: 2rem;
+  padding-right:10% 
+}
+
+.linkedin{
+  display: inline-block;
+  height: 2rem; 
+  padding-left: 10%;
+ /* set flex equal to aspect ratio with/height  */
+}
+
+.columnLayout {
+  display: flex; 
+}
+
+.experience {
+  flex:1;
+}
+
+.projects {
+  flex:1; 
+}
