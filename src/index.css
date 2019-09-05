@@ -14,7 +14,7 @@ code {
 
 .heading { 
   font-family: Oswald; 
-  font-size: 7rem; 
+  font-size: 3rem; 
   font-weight:bold; 
   text-transform: uppercase;
 }
@@ -62,4 +62,21 @@ code {
 
 .projects {
   flex:1; 
+}
+
+hr { 
+  display: block;
+  width: 90%; 
+  height: 0;
+  border: 0; 
+  border-bottom: .4rem solid black; 
+}
+
+.meat {
+  font-family:Oswald; 
+}
+
+.verticalLine {
+  border-left: .4rem solid black; 
+  height: 25rem; 
 }

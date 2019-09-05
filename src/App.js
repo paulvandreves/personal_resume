@@ -11,26 +11,63 @@ function App() {
     <p> <span className="phoneNumber" >Traverse City M.I  (231) 633-9666</span>    <span className="email">paul.aaron.vandyke@gmail.com</span>  </p>
 
     <div className="logoImages" >
-        {/* consider adding galvanize talent link instead */}
-        <img href="github.com/paulvandreves" className="gitHub"src={octoCat} />
-        <h2 className="website">paulvantech.com</h2>
-       <img className="linkedin" src={linkedin}  />
-    
+        <a href="http://www.github.com/paulvandreves"><img  className="gitHub"src={octoCat} title="github.com/paulvandreves" /></a>
+        {/* <a href="http://www.paulvantech.com"><h2 className="website">paulvantech.com</h2></a> */}
+        <a href="http://www.linkedin.com/in/paul-van-dyke"><img className="linkedin" src={linkedin} /></a>
     </div>
   
-    {/* <div className="columnLayout">
-    <div className="experience"><p>orem ipsum dolor amet green juice selfies prism cray narwhal direct trade. Ramps single-origin coffee plaid PBR&B bushwick,
-       activated charcoal vinyl enamel pin swag blog kinfolk pour-over farm-to-table woke. IPhone narwhal heirloom, mlkshk tumeric retro lomo health 
-       goth chartreuse squid taxidermy craft beer iceland everyday carry. Taxidermy neutra skateboard meggings franzen wayfarers asymmetrical distillery artisan tacos austin. Ethical air plant narwhal pop-up etsy enamel pin.</p></div>
-    <div className="projects"><p>activated charcoal vinyl enamel pin swag blog kinfolk pour-over farm-to-table woke. IPhone narwhal heirloom, mlkshk tumeric 
-      retro 
-      lomo health 
-       goth chartreuse squid taxidermy craft beer </p></div>
-    </div> */}
+    <hr></hr>
+
+    <div className="columnLayout">
+    <div className="experience">
+      <h2 className="meat" >Experience</h2>
+       <h3>Software Developer</h3>
+       <p>HealthBridge: August 2018 - September 2019</p>
+       <p>Worked on multiple highly functional React Applications </p>
+       <p>Wrote cypress integration tests and k6 load tests </p>
+
+       <h3>Security Operations Analyst</h3>
+       <p>Cavalry Solutions: July 2017 - July 2018</p>
+       <p>Provided Tier 1 response to networking issues and Cyber Security threats to Americas power grid</p>
+      
+      <h3>Non-commissioned Officer of Marines </h3>
+      <p>Responsible for the safety and professional development of junior Marines</p>
+      <p>Attained a Secret Clearance</p>
+
+      
+    </div>
+
+    <div class="verticalLine"></div>
+    <div className="projects">
+      <h2 className="meat"  >Projects</h2>
+        <h3>Alumnize</h3>
+        <p>Technologies used: Knex.js, Express, Postgres, Hekoku</p>
+        <p>Description:Web application designed to track the career paths of Galvanize grads</p>
+        <a href="https://alumnize-9cdd1.firebaseapp.com/#/">almnize-9cdd1.firebase.com</a>
+
+        <h3>We-DJ</h3>
+        <p>Technologies used: JavaScript, HTML, CSS jQuery, Knex.js, Postgres, Heroku</p>
+        <p>Description: Allows friend's to create collaborative playlists</p>
+        <a href="https://wedj-youtube.firebaseapp.com/">wedj-youtube.firebaseapp.com </a>
+
+        <h3>Virtual Reality Maze</h3>
+        <p>Description: timed, 3D, VR maze built for Android with Samsung VR gear</p>
+        <a href="https://paulvantech.com/#Projects">paulvantech.com/#Projects</a>
+      </div>
+
+      
+    </div>
+
+    <div className="Education" >
+      <h3>EDUCATION</h3>
+      <h4>GALVANIZE IMMERSIVE</h4>
+      <p>Full-Stack Javascript web development immersive</p>
+      <p>Frontend Stack:HTML5 CSS3 Javascript Jquery </p>
+      <p>Backend Stack: Node, Experience Postgres SQL</p>
+      </div>
     </div>
 
     
   );
 }
-
 export default App;
